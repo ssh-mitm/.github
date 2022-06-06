@@ -1,8 +1,29 @@
+<div id="top" align="center">
+<img src="https://github.com/ssh-mitm/ssh-mitm/raw/master/doc/images/ssh-mitm-logo.png" width="200"><br/>
+</div>
+<h1 align="center"> SSH-MITM - ssh audits made simple </h1>
+<p align="center">
+  <a href="https://www.ssh-mitm.at">
+    <img alt="SSH-MITM intercepting password login" title="SSH-MITM" src="https://www.ssh-mitm.at/img/ssh-mitm-password.png?20220211" >
+  </a>
+  <p align="center">ssh man-in-the-middle (ssh-mitm) server for security audits supporting<br> <b>publickey authentication</b>, <b>session hijacking</b> and <b>file manipulation</b></p>
+  <p align="center">
+   <a href="https://snapcraft.io/ssh-mitm">
+     <img alt="Get it from the Snap Store" src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" />
+   </a>
+   <br />
+   <br />
+   <a href="https://docs.ssh-mitm.at"><img src="https://read-the-docs-guidelines.readthedocs-hosted.com/_downloads/d9606423d87d78fcceae4ee2af883b12/logo-wordmark-dark.png" title="read the docs" width="256"></a>
+  </p>
+</p>
 
-# SSH-MITM Server - ssh audits made simple
 
-
-**SSH-MITM is a man in the middle (mitm) server for security audits supporting public key authentication, session hijacking and file manipulation.**
+<h3 align="center">Contributors</h3>
+<p align="center">
+<a href="https://github.com/ssh-mitm/ssh-mitm/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ssh-mitm/ssh-mitm" />
+</a>
+</p>
 
 ## Installation SSH-MITM
 
