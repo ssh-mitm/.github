@@ -2,7 +2,7 @@
 <img src="https://github.com/ssh-mitm/ssh-mitm/raw/master/doc/images/ssh-mitm-logo.png" width="200"><br/>
 </div>
 
-<h1 align="center"> SSH-MITM - ssh audits made simple </h1>
+<h1 align="center"><a href="https://github.com/ssh-mitm/ssh-mitm">SSH-MITM - ssh audits made simple</a></h1>
 
 <img align="center" alt="SSH-MITM intercepting password login" title="SSH-MITM" src="https://docs.ssh-mitm.at/_images/ssh-mitm-password.png#20230214" >
 
