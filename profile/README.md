@@ -4,9 +4,7 @@
 
 <h1 align="center"><a href="https://github.com/ssh-mitm/ssh-mitm">SSH-MITM - ssh audits made simple</a></h1>
 
-<img align="center" alt="SSH-MITM intercepting password login" title="SSH-MITM" src="https://docs.ssh-mitm.at/_images/ssh-mitm-password.png#20230214" >
-
-<h3 align="center">ssh man-in-the-middle (ssh-mitm) server for security audits supporting<br> <b>publickey authentication</b>, <b>session hijacking</b> and <b>file manipulation</b></h3>
+<p align="center"><b>ssh man-in-the-middle (ssh-mitm) server for security audits supporting<br> <b>publickey authentication</b>, <b>session hijacking</b> and <b>file manipulation</b></b></hp>
 
 <p align="center">
   <a href='https://flathub.org/apps/at.ssh_mitm.server'>
@@ -20,7 +18,7 @@
   <a href="https://docs.ssh-mitm.at"><img src="https://read-the-docs-guidelines.readthedocs-hosted.com/_downloads/d9606423d87d78fcceae4ee2af883b12/logo-wordmark-dark.png" title="read the docs" width="256"></a>
 </p>
 
-<h2 align="center">Contributors</h2>
+<h2 align="center"><a href="https://github.com/ssh-mitm/ssh-mitm/graphs/contributors">Contributors</a></h2>
 <p align="center">
   <a href="https://github.com/ssh-mitm/ssh-mitm/graphs/contributors">
     <img src="https://contrib.rocks/image?repo=ssh-mitm/ssh-mitm" />
