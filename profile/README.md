@@ -1,12 +1,16 @@
+<div id="top" align="center">
+<img src="https://github.com/ssh-mitm/ssh-mitm/raw/master/doc/images/ssh-mitm-logo.png" width="200"><br/>
+</div>
 <h1 align="center"> SSH-MITM - ssh audits made simple </h1>
 <p align="center">
-  <a href="https://www.ssh-mitm.at">
-    <img alt="SSH-MITM intercepting password login" title="SSH-MITM" src="https://docs.ssh-mitm.at/_images/ssh-mitm-password.png" >
+  <a href="https://docs.ssh-mitm.at">
+    <img alt="SSH-MITM intercepting password login" title="SSH-MITM" src="https://docs.ssh-mitm.at/_images/ssh-mitm-password.png#20230214" >
   </a>
   <p align="center">ssh man-in-the-middle (ssh-mitm) server for security audits supporting<br> <b>publickey authentication</b>, <b>session hijacking</b> and <b>file manipulation</b></p>
   <p align="center">
+   <a href='https://flathub.org/apps/at.ssh_mitm.server'><img height='56' alt='Download on Flathub' src='https://dl.flathub.org/assets/badges/flathub-badge-en.png'/></a>
    <a href="https://snapcraft.io/ssh-mitm">
-     <img alt="Get it from the Snap Store" src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" />
+     <img  height='56' alt="Get it from the Snap Store" src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" />
    </a>
    <br />
    <br />
@@ -22,22 +26,51 @@
 </a>
 </p>
 
-## Installation SSH-MITM
+## Installation
 
-The first step to using any software package is getting it properly installed.
+**SSH-MITM** can be installed as a 
+[Flatpak](https://flathub.org/apps/at.ssh_mitm.server), 
+[Ubuntu Snap](https://snapcraft.io/ssh-mitm), 
+[AppImage](https://github.com/ssh-mitm/ssh-mitm/releases/latest) 
+and [PIP-Package](https://pypi.org/project/ssh-mitm/).
 
-To install SSH-MITM, simply run this simple command in your terminal of choice:
+Community-supported options include installations via `[Nix](https://search.nixos.org/packages?channel=unstable&show=ssh-mitm&type=packages&query=ssh-mitm) and running on [Android devices](https://github.com/ssh-mitm/ssh-mitm/discussions/83#discussioncomment-1531873).
 
-    $ pip install ssh-mitm
+Install from Flathub:
 
-## Connect to the network
+    flatpak install flathub at.ssh_mitm.server
+    flatpak run at.ssh_mitm.server
 
-To start an intercepting mitm-ssh server on Port 10022, all you have to do is run a single command.
+Install from Snap store:
 
-```bash
-# start the mitm server
-$ ssh-mitm server --remote-host 192.168.0.x
+    sudo snap install ssh-mitm
 
-# connect to the mitm server
-$ ssh -p 10022 user@proxyserver
-```
+Install as AppImage:
+
+    wget https://github.com/ssh-mitm/ssh-mitm/releases/latest/download/ssh-mitm-x86_64.AppImage
+    chmod +x ssh-mitm*.AppImage
+
+Install python package:
+
+    python3 -m pip install ssh-mitm
+
+For more installation methods, refer to the [SSH-MITM installation guide](https://docs.ssh-mitm.at/get_started/installation.html).
+
+
+## Quickstart
+
+To start SSH-MITM, all you have to do is run this command in your terminal of choice.
+
+    ssh-mitm server --remote-host 192.168.0.x
+
+Now let's try to connect. SSH-MITM is listening on port 10022.
+
+    ssh -p 10022 testuser@proxyserver
+
+You will see the credentials in the log output.
+
+    INFO     Remote authentication succeeded
+        Remote Address: 127.0.0.1:22
+        Username: testuser
+        Password: secret
+        Agent: no agent
