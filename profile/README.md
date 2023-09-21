@@ -1,7 +1,7 @@
 <div id="top" align="center">
 <img src="https://github.com/ssh-mitm/ssh-mitm/raw/master/doc/images/ssh-mitm-logo.png" width="200"><br/>
 </div>
-<h1 align="center"> SSH-MITM - ssh audits made simple </h1>
+<a href="https://github.com/ssh-mitm/ssh-mitm"><h1 align="center"> SSH-MITM - ssh audits made simple </h1></a>
 <p align="center">
   <a href="https://docs.ssh-mitm.at">
     <img alt="SSH-MITM intercepting password login" title="SSH-MITM" src="https://docs.ssh-mitm.at/_images/ssh-mitm-password.png#20230214" >
