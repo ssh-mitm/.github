@@ -26,47 +26,6 @@
 </a>
 </p>
 
-## Installation
-
-**SSH-MITM** can be installed as a 
-[Flatpak](https://flathub.org/apps/at.ssh_mitm.server), 
-[Ubuntu Snap](https://snapcraft.io/ssh-mitm), 
-[AppImage](https://github.com/ssh-mitm/ssh-mitm/releases/latest) 
-and [PIP-Package](https://pypi.org/project/ssh-mitm/).
-
-Community-supported options include installations via `[Nix](https://search.nixos.org/packages?channel=unstable&show=ssh-mitm&type=packages&query=ssh-mitm) and running on [Android devices](https://github.com/ssh-mitm/ssh-mitm/discussions/83#discussioncomment-1531873).
-
-Install from Flathub:
-
-    flatpak install flathub at.ssh_mitm.server
-    flatpak run at.ssh_mitm.server
-
-Install from Snap store:
-
-    sudo snap install ssh-mitm
-
-Install as AppImage:
-
-    wget https://github.com/ssh-mitm/ssh-mitm/releases/latest/download/ssh-mitm-x86_64.AppImage
-    chmod +x ssh-mitm*.AppImage
-
-Install python package:
-
-    python3 -m pip install ssh-mitm
-
-For more installation methods, refer to the [SSH-MITM installation guide](https://docs.ssh-mitm.at/get_started/installation.html).
-
-
-## Quickstart
-
-To start SSH-MITM, all you have to do is run this command in your terminal of choice.
-
-    ssh-mitm server --remote-host 192.168.0.x
-
-Now let's try to connect. SSH-MITM is listening on port 10022.
-
-    ssh -p 10022 testuser@proxyserver
-
 You will see the credentials in the log output.
 
     INFO     Remote authentication succeeded
