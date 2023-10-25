@@ -1,5 +1,5 @@
 <div id="top" align="center">
-<img src="https://github.com/ssh-mitm/ssh-mitm/raw/master/doc/images/ssh-mitm-logo.png" width="200"><br/>
+<img src="ssh-mitm-intro.png"><br/>
 </div>
 
 <h1 align="center"><a href="https://github.com/ssh-mitm/ssh-mitm">SSH-MITM - ssh audits made simple</a></h1>
