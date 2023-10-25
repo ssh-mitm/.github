@@ -1,7 +1,7 @@
 <h1 align="center"><a href="https://github.com/ssh-mitm/ssh-mitm" >SSH-MITM - ssh audits made simple</a></h1>
 
 <div id="top" align="center">
-<a href="https://github.com/ssh-mitm/ssh-mitm"><img src="https://github.com/ssh-mitm/.github/blob/main/profile/ssh-mitm-intro.png" width="60%"><a/>
+<a href="https://github.com/ssh-mitm/ssh-mitm"><img alt="SSH-MITM intercepting password login" width="70%" title="SSH-MITM" src="https://docs.ssh-mitm.at/_images/intro.png" ><a/>
 </div>
 
 <p align="center"><b>ssh man-in-the-middle (ssh-mitm) server for security audits supporting<br> <b>publickey authentication</b>, <b>session hijacking</b> and <b>file manipulation</b></b></hp>
